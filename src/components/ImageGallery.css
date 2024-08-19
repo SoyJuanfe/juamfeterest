@@ -1,0 +1,75 @@
+.images__container {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.image__wrapper {
+  position: relative;
+  width: 250px;
+  height: 200px;
+  cursor: pointer; /* Cambia el cursor al pasar sobre la imagen */
+}
+
+.gallery__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+  border-radius: 20px;
+}
+
+.overlay {
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 20px; /* Asegúrate de que el borde redondeado se aplique también aquí */
+}
+
+.save__button {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.image__wrapper:hover .gallery__image {
+  opacity: 0.6;
+}
+
+.image__wrapper:hover .overlay {
+  opacity: 1;
+}
+
+.kawa__image {
+  height: 260px;
+  width: 450px;
+  border-radius: 15px;
+}
+
+.lazeta__image {
+  height: 350px;
+  width: 450px;
+  border-radius: 30px;
+}
+
+.gsr__image {
+  height: 250px;
+  width: 450px;
+}
+
+.yz__image {
+  height: 360px;
+  width: 450px;
+}

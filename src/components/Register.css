@@ -1,0 +1,79 @@
+/* General styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fafafa; /* Fondo gris claro */
+  }
+  
+  .Form__Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #fafafa; /* Fondo de la página */
+  }
+  
+  .Form {
+    background: #ffffff; /* Cuadro blanco */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 100%;
+    max-width: 400px; /* Ancho máximo del formulario */
+    text-align: center;
+  }
+  
+  .Logo {
+    margin-bottom: 20px;
+  }
+  
+  .Image {
+    width: 120px; /* Ajusta el tamaño del logo */
+    margin-bottom: 20px;
+  }
+  
+  .Email__Password {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .SingIn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f03c02; /* Color de botón */
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .SingIn:hover {
+    background-color: #d02a00; /* Color del botón al pasar el cursor */
+  }
+  
+  .login-link-container {
+    margin-top: 20px;
+  }
+  
+  .login-link-container p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .login-link-container a {
+    color: #f03c02;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .login-link-container a:hover {
+    text-decoration: underline;
+  }
+  

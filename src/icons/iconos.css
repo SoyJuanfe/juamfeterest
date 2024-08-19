@@ -1,0 +1,10 @@
+.icono-salir {
+    font-size: 40px; /* Ajusta el tamaño según sea necesario */
+    color: black; /* Color blanco por defecto */
+    transition: color 0.3s ease; /* Transición para el cambio de color */
+}
+
+.icono-salir:hover {
+    color: #f00; /* Color rojo al pasar el mouse */
+}
+

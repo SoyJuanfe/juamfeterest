@@ -1,0 +1,54 @@
+.Images__Container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+    margin: 10px;
+}
+
+.Search {
+    width: 500px;
+    gap: 10px;
+    align-items: center;
+    border-radius: 50px;
+    height: 40px;
+   
+background-color: aqua;}
+
+.principal {
+    gap: 10px;
+    margin: 20px;
+    align-items: center;
+    font-weight: 700;
+}
+
+.fondo-buscar {
+    width: 700px;
+}
+
+.primero {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.inicio-estilos {
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    width: 70px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.el-buscador {
+    font-weight: 400;
+    color: gray;
+}
+
+
+
+
+ 
